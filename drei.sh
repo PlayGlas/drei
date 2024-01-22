@@ -409,7 +409,7 @@ if [[ -e davinci.run ]]; then
 	rm -f davinci.run
 fi
 mv $tmp_path/*.run $tmp_path/davinci.run
-distrobox-enter --name drei -- sudo $tmp_path/davinci.run -iy
+distrobox-enter --name drei -- sudo ./$tmp_path/davinci.run -iy
 rm -rfv $tmp_path
 distrobox-enter --name drei -- sudo rm -rf "/opt/resolve/libs/libglib-2.0.so"
 distrobox-enter --name drei -- sudo rm -rf "/opt/resolve/libs/libglib-2.0.so.0"
