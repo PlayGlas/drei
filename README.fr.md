@@ -1,5 +1,5 @@
 # drei - DaVinci Resolve Easy Installer (Beta)
-# It's just a fork
+# Ceci n'est qu'un fork
 
 [![en](https://img.shields.io/badge/language-english-blue.svg)](https://github.com/legdna/drei/blob/main/README.md)
 
